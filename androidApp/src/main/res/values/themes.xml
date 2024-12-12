@@ -1,0 +1,272 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Base Application theme-->
+    <style name="App.Theme.Light.Default" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDisabled">@color/colorPrimaryDisabled</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="successBackgroundColor">@color/successBackgroundColor</item>
+        <item name="successColor">@color/successColor</item>
+        <item name="secondaryTextColor">@color/secondaryTextColor</item>
+        <item name="dividerOrBorderColor">@color/dividerOrBorderColor</item>
+        <item name="screenBackgroundColor">@color/screenBackgroundColor</item>
+        <item name="searchBarOrTextViewBackgroundColor">@color/searchBarOrTextViewBackgroundColor
+        </item>
+
+        <!--        Text Color-->
+        <item name="primaryTextColor">@color/black</item>
+        <item name="disabledTextColor">@color/grey2</item>
+        <item name="onBaseThemeTextColour">@color/colorWhite</item>
+        <item name="secondaryBaseTextColor">@color/bluePrimary</item>
+
+        <!--        Typography theme Attributes -->
+        <item name="textAppearanceDisplayLarge">@style/App.TextAppearance.Display.Large</item>
+        <item name="textAppearanceDisplayMedium">@style/App.TextAppearance.Display.Medium</item>
+        <item name="textAppearanceDisplaySmall">@style/App.TextAppearance.Display.Small</item>
+
+        <item name="textAppearanceHeadlineLarge">@style/App.TextAppearance.Headline.Large</item>
+        <item name="textAppearanceHeadlineMedium">@style/App.TextAppearance.Headline.Medium
+        </item>
+        <item name="textAppearanceHeadlineSmall">@style/App.TextAppearance.Headline.Small</item>
+
+        <item name="textAppearanceTitleLarge">@style/App.TextAppearance.Title.Large</item>
+        <item name="textAppearanceTitleMedium">@style/App.TextAppearance.Title.Medium</item>
+        <item name="textAppearanceTitleSmall">@style/App.TextAppearance.Title.Small</item>
+
+        <item name="textAppearanceBodyLarge">@style/App.TextAppearance.Body.Large</item>
+        <item name="textAppearanceBodyMedium">@style/App.TextAppearance.Body.Medium</item>
+        <item name="textAppearanceBodySmall">@style/App.TextAppearance.Body.Small</item>
+        <item name="textAppearanceBodyExtraSmall">@style/App.TextAppearance.Body.ExtraSmall
+        </item>
+
+        <item name="textAppearanceLabelLarge">@style/App.TextAppearance.Label.Large</item>
+        <item name="textAppearanceLabelMedium">@style/App.TextAppearance.Label.Medium</item>
+        <item name="textAppearanceLabelSmall">@style/App.TextAppearance.Label.Small</item>
+
+        <!--        Typography theme Attributes with colours-->
+
+        <!--    Black - PrimaryTextColor -->
+        <!--    Grey - DisabledTextColor -->
+        <!--    Blue - SecondaryTextColor -->
+        <!--    White - OnBaseThemeTextColour -->
+
+        <!--DisplayMedium-->
+        <item name="textAppearanceDisplayMediumPrimaryTextColor">
+            @style/App.TextAppearance.Display.Medium.PrimaryTextColor
+        </item>
+        <item name="textAppearanceDisplayMediumOnBaseThemeTextColour">
+            @style/App.TextAppearance.Display.Medium.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceDisplayMediumDisabledTextColor">
+            @style/App.TextAppearance.Display.Medium.DisabledTextColor
+        </item>
+        <item name="textAppearanceDisplayMediumSecondaryTextColor">
+            @style/App.TextAppearance.Display.Medium.SecondaryTextColor
+        </item>
+
+        <!--        DisplaySmall-->
+        <item name="textAppearanceDisplaySmallPrimaryTextColor">
+            @style/App.TextAppearance.Display.Small.PrimaryTextColor
+        </item>
+        <item name="textAppearanceDisplaySmallOnBaseThemeTextColour">
+            @style/App.TextAppearance.Display.Small.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceDisplaySmallDisabledTextColor">
+            @style/App.TextAppearance.Display.Small.DisabledTextColor
+        </item>
+        <item name="textAppearanceDisplaySmallSecondaryTextColor">
+            @style/App.TextAppearance.Display.Small.SecondaryTextColor
+        </item>
+
+        <!--        HeadLine Large-->
+        <item name="textAppearanceHeadlineLargePrimaryTextColor">
+            @style/App.TextAppearance.Headline.Large.PrimaryTextColor
+        </item>
+        <item name="textAppearanceHeadlineLargeOnBaseThemeTextColour">
+            @style/App.TextAppearance.Headline.Large.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceHeadlineLargeDisabledTextColor">
+            @style/App.TextAppearance.Headline.Large.DisabledTextColor
+        </item>
+        <item name="textAppearanceHeadlineLargeSecondaryTextColor">
+            @style/App.TextAppearance.Headline.Large.SecondaryTextColor
+        </item>
+
+        <!--        Headline Medium-->
+        <item name="textAppearanceHeadlineMediumPrimaryTextColor">
+            @style/App.TextAppearance.Headline.Medium.PrimaryTextColor
+        </item>
+        <item name="textAppearanceHeadlineMediumOnBaseThemeTextColour">
+            @style/App.TextAppearance.Headline.Medium.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceHeadlineMediumDisabledTextColor">
+            @style/App.TextAppearance.Headline.Medium.DisabledTextColor
+        </item>
+        <item name="textAppearanceHeadlineMediumSecondaryTextColor">
+            @style/App.TextAppearance.Headline.Medium.SecondaryTextColor
+        </item>
+
+        <!--        HeadLine Small-->
+        <item name="textAppearanceHeadlineSmallPrimaryTextColor">
+            @style/App.TextAppearance.Headline.Small.PrimaryTextColor
+        </item>
+        <item name="textAppearanceHeadlineSmallOnBaseThemeTextColour">
+            @style/App.TextAppearance.Headline.Small.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceHeadlineSmallDisabledTextColor">
+            @style/App.TextAppearance.Headline.Small.DisabledTextColor
+        </item>
+        <item name="textAppearanceHeadlineSmallSecondaryTextColor">
+            @style/App.TextAppearance.Headline.Small.SecondaryTextColor
+        </item>
+
+        <!--        Title Large-->
+        <item name="textAppearanceTitleLargePrimaryTextColor">
+            @style/App.TextAppearance.Title.Large.PrimaryTextColor
+        </item>
+        <item name="textAppearanceTitleLargeOnBaseThemeTextColour">
+            @style/App.TextAppearance.Title.Large.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceTitleLargeDisabledTextColor">
+            @style/App.TextAppearance.Title.Large.DisabledTextColor
+        </item>
+        <item name="textAppearanceTitleLargeSecondaryTextColor">
+            @style/App.TextAppearance.Title.Large.SecondaryTextColor
+        </item>
+
+        <!--        Title Medium-->
+        <item name="textAppearanceTitleMediumBasePrimaryTextColor">
+            @style/App.TextAppearance.Title.Medium.BasePrimaryTextColor
+        </item>
+        <item name="textAppearanceTitleMediumPrimaryTextColor">
+            @style/App.TextAppearance.Title.Medium.PrimaryTextColor
+        </item>
+        <item name="textAppearanceTitleMediumOnBaseThemeTextColour">
+            @style/App.TextAppearance.Title.Medium.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceTitleMediumDisabledTextColor">
+            @style/App.TextAppearance.Title.Medium.DisabledTextColor
+        </item>
+        <item name="textAppearanceTitleMediumSecondaryTextColor">
+            @style/App.TextAppearance.Title.Medium.SecondaryTextColor
+        </item>
+
+        <!--        Title Small-->
+        <item name="textAppearanceTitleSmallPrimaryTextColor">
+            @style/App.TextAppearance.Title.Small.PrimaryTextColor
+        </item>
+        <item name="textAppearanceTitleSmallOnBaseThemeTextColour">
+            @style/App.TextAppearance.Title.Small.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceTitleSmallDisabledTextColor">
+            @style/App.TextAppearance.Title.Small.DisabledTextColor
+        </item>
+        <item name="textAppearanceTitleSmallSecondaryTextColor">
+            @style/App.TextAppearance.Title.Small.SecondaryTextColor
+        </item>
+
+        <!--        Body Large-->
+        <item name="textAppearanceBodyLargePrimaryTextColor">
+            @style/App.TextAppearance.Body.Large.PrimaryTextColor
+        </item>
+        <item name="textAppearanceBodyLargeOnBaseThemeTextColour">
+            @style/App.TextAppearance.Body.Large.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceBodyLargeDisabledTextColor">
+            @style/App.TextAppearance.Body.Large.DisabledTextColor
+        </item>
+        <item name="textAppearanceBodyLargeSecondaryTextColor">
+            @style/App.TextAppearance.Body.Large.SecondaryTextColor
+        </item>
+
+        <!--       Body Medium-->
+        <item name="textAppearanceBodyMediumPrimaryTextColor">
+            @style/App.TextAppearance.Body.Medium.PrimaryTextColor
+        </item>
+        <item name="textAppearanceBodyMediumOnBaseThemeTextColour">
+            @style/App.TextAppearance.Body.Medium.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceBodyMediumDisabledTextColor">
+            @style/App.TextAppearance.Body.Medium.DisabledTextColor
+        </item>
+        <item name="textAppearanceBodyMediumSecondaryTextColor">
+            @style/App.TextAppearance.Body.Medium.SecondaryTextColor
+        </item>
+
+        <!--        Body Small-->
+        <item name="textAppearanceBodySmallPrimaryTextColor">
+            @style/App.TextAppearance.Body.Small.PrimaryTextColor
+        </item>
+        <item name="textAppearanceBodySmallOnBaseThemeTextColour">
+            @style/App.TextAppearance.Body.Small.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceBodySmallDisabledTextColor">
+            @style/App.TextAppearance.Body.Small.DisabledTextColor
+        </item>
+        <item name="textAppearanceBodySmallSecondaryTextColor">
+            @style/App.TextAppearance.Body.Small.SecondaryTextColor
+        </item>
+
+        <!--        Body Extra Small-->
+        <item name="textAppearanceBodyExtraSmallPrimaryTextColor">
+            @style/App.TextAppearance.Body.ExtraSmall.PrimaryTextColor
+        </item>
+        <item name="textAppearanceBodyExtraSmallOnBaseThemeTextColour">
+            @style/App.TextAppearance.Body.ExtraSmall.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceBodyExtraSmallDisabledTextColor">
+            @style/App.TextAppearance.Body.ExtraSmall.DisabledTextColor
+        </item>
+        <item name="textAppearanceBodyExtraSmallSecondaryTextColor">
+            @style/App.TextAppearance.Body.ExtraSmall.SecondaryTextColor
+        </item>
+
+        <!--        Label Large-->
+        <item name="textAppearanceLabelLargePrimaryTextColor">
+            @style/App.TextAppearance.Label.Large.PrimaryTextColor
+        </item>
+        <item name="textAppearanceLabelLargeOnBaseThemeTextColour">
+            @style/App.TextAppearance.Label.Large.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceLabelLargeDisabledTextColor">
+            @style/App.TextAppearance.Label.Large.DisabledTextColor
+        </item>
+        <item name="textAppearanceLabelLargeSecondaryTextColor">
+            @style/App.TextAppearance.Label.Large.SecondaryTextColor
+        </item>
+
+        <!--        Label Medium-->
+        <item name="textAppearanceLabelMediumPrimaryTextColor">
+            @style/App.TextAppearance.Label.Medium.PrimaryTextColor
+        </item>
+        <item name="textAppearanceLabelMediumOnBaseThemeTextColour">
+            @style/App.TextAppearance.Label.Medium.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceLabelMediumDisabledTextColor">
+            @style/App.TextAppearance.Label.Medium.DisabledTextColor
+        </item>
+        <item name="textAppearanceLabelMediumSecondaryTextColor">
+            @style/App.TextAppearance.Label.Medium.SecondaryTextColor
+        </item>
+
+        <!--        Label Small-->
+        <item name="textAppearanceLabelSmallPrimaryTextColor">
+            @style/App.TextAppearance.Label.Small.PrimaryTextColor
+        </item>
+        <item name="textAppearanceLabelSmallOnBaseThemeTextColour">
+            @style/App.TextAppearance.Label.Small.OnBaseThemeTextColour
+        </item>
+        <item name="textAppearanceLabelSmallDisabledTextColor">
+            @style/App.TextAppearance.Label.Small.DisabledTextColor
+        </item>
+        <item name="textAppearanceLabelSmallSecondaryTextColor">
+            @style/App.TextAppearance.Label.Small.SecondaryTextColor
+        </item>
+
+    </style>
+</resources>

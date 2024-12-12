@@ -1,0 +1,438 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <!--    App level Theme Style-->
+
+    <!--    Display Large Style-->
+    <style name="App.TextAppearance.Display.Large" parent="TextAppearance.Material3.DisplayLarge" />
+
+    <!--    Display Medium Style-->
+    <style name="App.TextAppearance.Display.Medium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Display_Medium_TextSize_45</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Display_Medium_LineHeight_52
+        </item>
+    </style>
+
+    <!--    Display Small Style-->
+    <style name="App.TextAppearance.Display.Small" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Display_Small_TextSize_36</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Display_Small_LineHeight_44
+        </item>
+    </style>
+
+    <!--    HeadLine Large Style-->
+    <style name="App.TextAppearance.Headline.Large" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_HeadLine_Large_TextSize_32</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_HeadLine_Large_LineHeight_40
+        </item>
+    </style>
+
+    <!--    HeadLine Medium Style-->
+    <style name="App.TextAppearance.Headline.Medium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/lato_medium</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_HeadLine_Medium_TextSize_28</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_HeadLine_Medium_LineHeight_36
+        </item>
+    </style>
+
+    <!--    HeadLine Small Style-->
+    <style name="App.TextAppearance.Headline.Small" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_HeadLine_Small_TextSize_24</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_HeadLine_Small_LineHeight_32
+        </item>
+    </style>
+
+    <!--    Title Large Style-->
+    <style name="App.TextAppearance.Title.Large" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/lato_medium</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Title_Large_TextSize_18</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Title_Large_LineHeight_24
+        </item>
+    </style>
+
+    <!--    Title Medium Style-->
+    <style name="App.TextAppearance.Title.Medium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/lato_medium</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Title_Medium_TextSize_16</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Title_Medium_LineHeight_24
+        </item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0.02</item>
+    </style>
+
+    <!--    Title Small Style-->
+    <style name="App.TextAppearance.Title.Small" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/lato_medium</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Title_Small_TextSize_14</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Title_Small_LineHeight_20
+        </item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0.01</item>
+    </style>
+
+    <!--    Body Large Style-->
+    <style name="App.TextAppearance.Body.Large" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Body_Large_TextSize_16</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Body_Large_LineHeight_24
+        </item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0.08</item>
+    </style>
+
+    <!--    Body Medium Style-->
+    <style name="App.TextAppearance.Body.Medium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Body_Medium_TextSize_14</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Body_Medium_LineHeight_20
+        </item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0.04</item>
+    </style>
+
+    <!--    Body Small Style-->
+    <style name="App.TextAppearance.Body.Small" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Body_Small_TextSize_12</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Body_Small_LineHeight_16
+        </item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0.05</item>
+    </style>
+
+    <!--    Body Extra Small Style-->
+    <style name="App.TextAppearance.Body.ExtraSmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Body_Extra_Small_TextSize_10</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Body_Extra_Small_LineHeight_16
+        </item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0.04</item>
+    </style>
+
+    <!--    Label Large Style-->
+    <style name="App.TextAppearance.Label.Large" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/lato_medium</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Label_Large_TextSize_14</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Label_Large_LineHeight_20
+        </item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0.01</item>
+    </style>
+
+    <!--    Label Medium Style-->
+    <style name="App.TextAppearance.Label.Medium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/lato_medium</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Label_Medium_TextSize_12</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Label_Medium_LineHeight_16
+        </item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0.06</item>
+    </style>
+
+    <!--    Label Small Style-->
+    <style name="App.TextAppearance.Label.Small" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/lato_medium</item>
+        <item name="android:textSize">@dimen/App_TextAppearance_Label_Small_TextSize_11</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">
+            @dimen/App_TextAppearance_Label_Small_LineHeight_16
+        </item>
+        <item name="android:letterSpacing">@dimen/letter_spacing_0.06</item>
+    </style>
+
+    <!--    Theme Typography Text color Styles-->
+    <style name="App.TextAppearance.Display.Medium.PrimaryTextColor" parent="App.TextAppearance.Display.Medium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Display.Medium.OnBaseThemeTextColour" parent="App.TextAppearance.Display.Medium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Display.Medium.DisabledTextColor" parent="App.TextAppearance.Display.Medium">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Display.Medium.SecondaryTextColor" parent="App.TextAppearance.Display.Medium">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Display.Small.PrimaryTextColor" parent="App.TextAppearance.Display.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Display.Small.OnBaseThemeTextColour" parent="App.TextAppearance.Display.Small">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Display.Small.DisabledTextColor" parent="App.TextAppearance.Display.Small">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Display.Small.SecondaryTextColor" parent="App.TextAppearance.Display.Small">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Large.PrimaryTextColor" parent="App.TextAppearance.Headline.Large">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Large.OnBaseThemeTextColour" parent="App.TextAppearance.Headline.Large">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Large.DisabledTextColor" parent="App.TextAppearance.Headline.Large">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Large.SecondaryTextColor" parent="App.TextAppearance.Headline.Large">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Medium.PrimaryTextColor" parent="App.TextAppearance.Headline.Medium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Medium.OnBaseThemeTextColour" parent="App.TextAppearance.Headline.Medium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Medium.DisabledTextColor" parent="App.TextAppearance.Headline.Medium">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Medium.SecondaryTextColor" parent="App.TextAppearance.Headline.Medium">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Small.PrimaryTextColor" parent="App.TextAppearance.Headline.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Small.OnBaseThemeTextColour" parent="App.TextAppearance.Headline.Small">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Small.DisabledTextColor" parent="App.TextAppearance.Headline.Small">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Headline.Small.SecondaryTextColor" parent="App.TextAppearance.Headline.Small">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Large.PrimaryTextColor" parent="App.TextAppearance.Title.Large">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Large.OnBaseThemeTextColour" parent="App.TextAppearance.Title.Large">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Large.DisabledTextColor" parent="App.TextAppearance.Title.Large">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Large.SecondaryTextColor" parent="App.TextAppearance.Title.Large">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Medium.BasePrimaryTextColor" parent="App.TextAppearance.Title.Medium">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Medium.PrimaryTextColor" parent="App.TextAppearance.Title.Medium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Medium.OnBaseThemeTextColour" parent="App.TextAppearance.Title.Medium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Medium.DisabledTextColor" parent="App.TextAppearance.Title.Medium">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Medium.SecondaryTextColor" parent="App.TextAppearance.Title.Medium">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Small.PrimaryTextColor" parent="App.TextAppearance.Title.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Small.OnBaseThemeTextColour" parent="App.TextAppearance.Title.Small">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Small.DisabledTextColor" parent="App.TextAppearance.Title.Small">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Title.Small.SecondaryTextColor" parent="App.TextAppearance.Title.Small">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Large.PrimaryTextColor" parent="App.TextAppearance.Body.Large">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Large.OnBaseThemeTextColour" parent="App.TextAppearance.Body.Large">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Large.DisabledTextColor" parent="App.TextAppearance.Body.Large">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Large.SecondaryTextColor" parent="App.TextAppearance.Body.Large">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Medium.PrimaryTextColor" parent="App.TextAppearance.Body.Medium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Medium.OnBaseThemeTextColour" parent="App.TextAppearance.Body.Medium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Medium.DisabledTextColor" parent="App.TextAppearance.Body.Medium">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Medium.SecondaryTextColor" parent="App.TextAppearance.Body.Medium">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Medium.GreenTextColor" parent="App.TextAppearance.Body.Medium">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Small.PrimaryTextColor" parent="App.TextAppearance.Body.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Small.OnBaseThemeTextColour" parent="App.TextAppearance.Body.Small">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Small.DisabledTextColor" parent="App.TextAppearance.Body.Small">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.Small.SecondaryTextColor" parent="App.TextAppearance.Body.Small">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.ExtraSmall.PrimaryTextColor" parent="App.TextAppearance.Body.ExtraSmall">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.ExtraSmall.OnBaseThemeTextColour" parent="App.TextAppearance.Body.ExtraSmall">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.ExtraSmall.DisabledTextColor" parent="App.TextAppearance.Body.ExtraSmall">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Body.ExtraSmall.SecondaryTextColor" parent="App.TextAppearance.Body.ExtraSmall">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Large.PrimaryTextColor" parent="App.TextAppearance.Label.Large">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Large.OnBaseThemeTextColour" parent="App.TextAppearance.Label.Large">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Large.DisabledTextColor" parent="App.TextAppearance.Label.Large">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Large.SecondaryTextColor" parent="App.TextAppearance.Label.Large">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Medium.PrimaryTextColor" parent="App.TextAppearance.Label.Medium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Medium.OnBaseThemeTextColour" parent="App.TextAppearance.Label.Medium">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Medium.DisabledTextColor" parent="App.TextAppearance.Label.Medium">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Medium.SecondaryTextColor" parent="App.TextAppearance.Label.Medium">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Small.PrimaryTextColor" parent="App.TextAppearance.Label.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Small.OnBaseThemeTextColour" parent="App.TextAppearance.Label.Small">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Small.DisabledTextColor" parent="App.TextAppearance.Label.Small">
+        <item name="android:textColor">@color/grey2</item>
+    </style>
+
+    <style name="App.TextAppearance.Label.Small.SecondaryTextColor" parent="App.TextAppearance.Label.Small">
+        <item name="android:textColor">@color/bluePrimary</item>
+    </style>
+    <!--App Theme Styles Ends here-->
+
+    <style name="Lato_Bold">
+        <item name="android:fontFamily">@font/lato_bold</item>
+        <item name="fontFamily">@font/lato_bold</item>
+    </style>
+
+    <style name="BrandButtonStylePlain" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="android:textColor">@color/material_grey700</item>
+    </style>
+
+    <style name="BrandButtonStyleRed" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/material_red500</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Lato_Medium">
+        <item name="android:fontFamily">@font/lato_medium</item>
+        <item name="fontFamily">@font/lato_medium</item>
+    </style>
+
+    <style name="LeagueSpartan_Bold">
+        <item name="android:fontFamily">@font/leaguespartan_bold</item>
+        <item name="fontFamily">@font/leaguespartan_bold</item>
+    </style>
+
+    <!--    Base Dialog Box Style-->
+    <style name="App.TextAppearance.DialogBox.Confirm" parent="App.TextAppearance.Title.Medium.BasePrimaryTextColor" />
+
+    <style name="App.TextAppearance.DialogBox.Cancel" parent="App.TextAppearance.Title.Medium.PrimaryTextColor" />
+
+    <style name="App.TextAppearance.DialogBox.Title" parent="App.TextAppearance.Title.Large.PrimaryTextColor" />
+
+    <style name="App.TextAppearance.DialogBox.Description" parent="App.TextAppearance.Body.Medium.DisabledTextColor" />
+
+</resources>

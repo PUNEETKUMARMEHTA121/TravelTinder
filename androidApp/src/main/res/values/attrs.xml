@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Text colour Attributes-->
+
+    <attr name="primaryTextColor" format="reference|color" />
+    <attr name="disabledTextColor" format="reference|color" />
+    <attr name="onBaseThemeTextColour" format="reference|color" />
+    <attr name="secondaryBaseTextColor" format="reference|color" />
+
+    <attr name="successBackgroundColor" format="reference|color" />
+    <attr name="successColor" format="reference|color" />
+    <attr name="secondaryTextColor" format="reference|color" />
+    <attr name="dividerOrBorderColor" format="reference|color" />
+    <attr name="screenBackgroundColor" format="reference|color" />
+    <attr name="searchBarOrTextViewBackgroundColor" format="reference|color" />
+    <attr name="textAppearanceBodyExtraSmall" format="reference" />
+    <attr name="colorPrimaryDisabled" format="reference|color" />
+
+    <!--    Display Large Attributes-->
+    <attr name="textAppearanceDisplayLargeOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceDisplayLargePrimaryTextColor" format="reference" />
+    <attr name="textAppearanceDisplayLargeDisabledTextColor" format="reference" />
+    <attr name="textAppearanceDisplayLargeSecondaryTextColor" format="reference" />
+
+    <!--    Display Medium Attributes-->
+    <attr name="textAppearanceDisplayMediumOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceDisplayMediumPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceDisplayMediumDisabledTextColor" format="reference" />
+    <attr name="textAppearanceDisplayMediumSecondaryTextColor" format="reference" />
+
+    <!--    Display Small Attributes-->
+    <attr name="textAppearanceDisplaySmallOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceDisplaySmallPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceDisplaySmallDisabledTextColor" format="reference" />
+    <attr name="textAppearanceDisplaySmallSecondaryTextColor" format="reference" />
+
+    <!--    HeadLine Large Attributes-->
+    <attr name="textAppearanceHeadlineLargeOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceHeadlineLargePrimaryTextColor" format="reference" />
+    <attr name="textAppearanceHeadlineLargeDisabledTextColor" format="reference" />
+    <attr name="textAppearanceHeadlineLargeSecondaryTextColor" format="reference" />
+
+    <!--    HeadLine Medium Attributes-->
+    <attr name="textAppearanceHeadlineMediumOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceHeadlineMediumPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceHeadlineMediumDisabledTextColor" format="reference" />
+    <attr name="textAppearanceHeadlineMediumSecondaryTextColor" format="reference" />
+
+    <!--    HeadLine Small Attributes-->
+    <attr name="textAppearanceHeadlineSmallOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceHeadlineSmallPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceHeadlineSmallDisabledTextColor" format="reference" />
+    <attr name="textAppearanceHeadlineSmallSecondaryTextColor" format="reference" />
+
+    <!--    Title Large Attributes-->
+    <attr name="textAppearanceTitleLargeOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceTitleLargePrimaryTextColor" format="reference" />
+    <attr name="textAppearanceTitleLargeDisabledTextColor" format="reference" />
+    <attr name="textAppearanceTitleLargeSecondaryTextColor" format="reference" />
+
+    <!--    Title Medium Attributes-->
+    <attr name="textAppearanceTitleMediumOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceTitleMediumPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceTitleMediumBasePrimaryTextColor" format="reference" />
+    <attr name="textAppearanceTitleMediumDisabledTextColor" format="reference" />
+    <attr name="textAppearanceTitleMediumSecondaryTextColor" format="reference" />
+
+    <!--    Title Small Attributes-->
+    <attr name="textAppearanceTitleSmallOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceTitleSmallPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceTitleSmallDisabledTextColor" format="reference" />
+    <attr name="textAppearanceTitleSmallSecondaryTextColor" format="reference" />
+
+    <!--    Body Large Attributes-->
+    <attr name="textAppearanceBodyLargeOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceBodyLargePrimaryTextColor" format="reference" />
+    <attr name="textAppearanceBodyLargeDisabledTextColor" format="reference" />
+    <attr name="textAppearanceBodyLargeSecondaryTextColor" format="reference" />
+
+    <!--    Body Medium Attributes-->
+    <attr name="textAppearanceBodyMediumOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceBodyMediumPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceBodyMediumDisabledTextColor" format="reference" />
+    <attr name="textAppearanceBodyMediumSecondaryTextColor" format="reference" />
+
+    <!--    Body Small Attributes-->
+    <attr name="textAppearanceBodySmallOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceBodySmallPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceBodySmallDisabledTextColor" format="reference" />
+    <attr name="textAppearanceBodySmallSecondaryTextColor" format="reference" />
+
+    <!--    Body Extra Small Attributes-->
+    <attr name="textAppearanceBodyExtraSmallOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceBodyExtraSmallPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceBodyExtraSmallDisabledTextColor" format="reference" />
+    <attr name="textAppearanceBodyExtraSmallSecondaryTextColor" format="reference" />
+
+    <!--    Label Large Attributes-->
+    <attr name="textAppearanceLabelLargeOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceLabelLargePrimaryTextColor" format="reference" />
+    <attr name="textAppearanceLabelLargeDisabledTextColor" format="reference" />
+    <attr name="textAppearanceLabelLargeSecondaryTextColor" format="reference" />
+
+    <!--    Label Medium Attributes-->
+    <attr name="textAppearanceLabelMediumOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceLabelMediumPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceLabelMediumDisabledTextColor" format="reference" />
+    <attr name="textAppearanceLabelMediumSecondaryTextColor" format="reference" />
+
+    <!--    Label Small Attributes-->
+    <attr name="textAppearanceLabelSmallOnBaseThemeTextColour" format="reference" />
+    <attr name="textAppearanceLabelSmallPrimaryTextColor" format="reference" />
+    <attr name="textAppearanceLabelSmallDisabledTextColor" format="reference" />
+    <attr name="textAppearanceLabelSmallSecondaryTextColor" format="reference" />
+</resources>

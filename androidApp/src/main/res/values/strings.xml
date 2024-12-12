@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   Home Drawer Strings-->
+    <string name="config_app_name" translatable="false">Travel Diary</string>
+    <string name="edit_business">Edit Business</string>
+    <string name="free_plan">Free Plan</string>
+    <string name="upgrade_to_premium_plans">Upgrade to Premium Plans</string>
+    <string name="premium_plan">Premium Plan</string>
+    <string name="subscription_status_on_premium_plan">You are on Premium Plan</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="create_business">Create Business</string>
+    <string name="switch_business">Switch Business</string>
+    <string name="management_navigation">Management</string>
+
+    <!--    login/sign-up-->
+    <string name="help">Help</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in_with_phone_number">Sign in with Number</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="landing_base_v2_onboard_title_1">Sales Counter</string>
+    <string name="landing_base_v2_onboard_title_2">Inventory Management</string>
+    <string name="landing_base_v2_onboard_title_3">Your Online StoreFront</string>
+    <string name="landing_base_v2_onboard_title_4">Advance Reports</string>
+
+    <string name="landing_base_v2_onboard_sub_title_1">Easy to use sales counter, give discounts add tax and more!</string>
+    <string name="landing_base_v2_onboard_sub_title_2">Manage all your inventory at single place with advance history tracker</string>
+    <string name="landing_base_v2_onboard_sub_title_3">Get your fully loaded e-commerce site which can be shared with your customer and start taking online orders</string>
+    <string name="landing_base_v2_onboard_sub_title_4">Know your Low stock, total revenue, net profit, expense and more</string>
+
+    <string name="name_req">Full Name</string>
+    <string name="email_id">Email id</string>
+    <string name="password">Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="login">Login</string>
+    <string name="create_btn">Create Account</string>
+
+    <!--    Login/SignUp Error Strings-->
+    <string name="emptyFieldError">Email or Password cannot be empty!</string>
+    <string name="invalidEmailError">Please enter a valid email!</string>
+    <string name="emailNotFoundError">Email not found in our database</string>
+    <string name="invalidEmailPasswordError">Invalid email or password</string>
+    <string name="unknownError">Unknown error occurred</string>
+    <string name="connectivityError">Check Connectivity</string>
+    <string name="checkConnectivity">Check Connectivity</string>
+    <string name="emailExistsError">This email is already registered!</string>
+    <string name="malformedEmailError">malformed email</string>
+    <string name="weakPasswordError">The password is too weak!</string>
+    <string name="passwordTooShortError">Password should be at least 6 characters long!</string>
+    <string name="passwordNumberMissingError">Password should contain at least one number!</string>
+    <string name="invalidNameError">Please enter a valid name!</string>
+
+
+    <!--    Login/SignUp Success messages-->
+    <string name="loggedInSuccessfully">Login Successfully</string>
+    <string name="signInSuccessfully">SignIn Successfully</string>
+    <string name="registrationSuccess">Registration successful!</string>
+
+    <!--   Select User Type Strings-->
+    <string name="select_user_type">Select User Type</string>
+    <string name="customer">Customer</string>
+    <string name="admin">Admin</string>
+
+    <!--Home Base Strings-->
+    <string name="my_store">My Store </string>
+    <string name="discover">Discover</string>
+    <string name="my_trips">My Trips</string>
+    <string name="orders">Orders</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="add_trip">Add Trip</string>
+    <string name="trip_request_status">Trip Request Status</string>
+    <string name="discover_by_place">Discover by Place</string>
+    <string name="sign_out">SignOut</string>
+
+    <!--    Base Dialog Box Strings-->
+    <string name="cancel_btn">Cancel</string>
+    <string name="confirm_btn">Confirm</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="sign_out_confirmation_message">Are you Sure you want to Sign out?</string>
+    <string name="trip_image">Trip Image</string>
+
+</resources>

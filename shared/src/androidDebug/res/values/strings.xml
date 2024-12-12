@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emailNotExists">email Not Exists</string>
+    <string name="invalidEmailPassword">invalid Email Password</string>
+    <string name="weakPasswordError">weak password</string>
+    <string name="malformedEmailError">malformed email</string>
+    <string name="emailAlreadyExistsError">email already exists</string>
+    <string name="logoutErrorMessage">Error logging out</string>
+    <string name="passwordResetSuccessMessage">Password reset email sent successfully</string>
+    <string name="errorResettingPassword">Error resetting password: %s</string>
+    <string name="checkConnectivityError">Check Connectivity</string>
+    <string name="unknownError">Unknown error occurred: %s</string>
+
+
+</resources>
